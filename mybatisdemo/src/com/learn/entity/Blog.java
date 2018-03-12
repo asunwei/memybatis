@@ -37,5 +37,10 @@ public class Blog {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	@Override
+	public String toString() {
+		return "Blog [id=" + id + ", name=" + name + ", email=" + email + "]";
+	}
+	
 	
 }
